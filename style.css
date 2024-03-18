@@ -15,7 +15,7 @@
 .headHero {
   background-image: url(images/heroBack.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .headContainer {
@@ -37,7 +37,7 @@ nav {
   list-style-type: none;
 }
 
-li {
+nav li {
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 400;
@@ -45,7 +45,7 @@ li {
   text-align: left;
 }
 
-li:hover {
+nav li:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #f1a501;
@@ -304,4 +304,314 @@ nav button:hover {
   position: absolute;
   z-index: -1;
   right: 0;
+}
+
+
+.bookingsection{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.booking{
+  width: 50%;
+}
+
+.bookingtrip p{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+color: rgba(94, 98, 130, 1);
+
+}
+
+.bookingtrip h2{
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(20, 24, 62, 1);
+  width: 90%;
+}
+
+.greecetrip {
+  width: 50%;
+}
+
+.bookingservices{
+  display: flex;
+  /* align-items: center; */
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.bookingtext{
+  width: 80%;
+}
+
+.bookingtext h6{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+color: rgba(94, 98, 130, 1);
+}
+
+.bookingtext p{
+font-family: Poppins;
+font-size: 16px;
+color: rgba(94, 98, 130, 1);
+width: 90%;
+}
+
+
+.serve{
+  width: 85%;
+  margin: auto;
+}
+
+.topServe h3{
+  font-family: Archivo;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.topServe p{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 40%;
+}
+
+.topServe{
+  margin-bottom: 3rem;
+}
+
+.phoneServices{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.phone{
+  width: 35%;
+}
+
+.phone img{
+  width: 90%;
+}
+
+.regions{
+  width: 65%;
+}
+
+
+.first{
+  display: flex;
+  margin-bottom: 6rem;
+  gap: 3rem;
+}
+
+.second{
+  display: flex;
+  gap: 3rem;
+}
+
+.street{
+  display: flex;
+}
+
+.streetImage{
+  width: 100%;
+}
+
+.streetImage img{
+  width: 70%;
+}
+
+
+.streetText p{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  /* width: 105%; */
+}
+
+.footContainer{
+  width: 100%;
+  margin-top: 4rem;
+}
+
+footer{
+  width: 85%;
+  margin: auto;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexSide{
+  display: flex;
+  gap: 4rem;
+}
+
+.logoSide{
+  width: 25%;
+}
+
+.logoSide p{
+  padding-top: 2rem;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.company{
+  margin-top: .5rem;
+}
+
+.company li{
+  list-style: none;
+  padding-top: 1rem;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.company h4{
+  padding-bottom: 1rem;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  color: rgba(8, 8, 9, 1);
+}
+
+.socials p{
+  padding: 1rem 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.copyright p{
+  padding: 4rem 0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+  nav {
+    gap: 1.5rem;
+  }
+
+  .textSide h1 {
+    font-size: 50px;
+    width: 100%;
+    padding-bottom: 1rem;
+    line-height: 59px;
+  }
+  
+  .textSide p {
+    font-size: 12px;
+    width: 92%;
+    padding-bottom: 1rem;
+  }
+  
+  .line {
+    margin-top: -14rem;
+    margin-left: -15rem;
+  }
+  
+  .line img {
+    width: 68%;
+  }
+
+  .imageSide {
+    margin-left: -11rem;
+  }
+
+  .card {
+    width: 267px;
+    padding: 1rem;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  .card h5 {
+    font-size: 15px;
+  }
+
+  .boxText {
+    width: 255px;
+  }
+  
+  .boximage img {
+    width: 255px;
+  }
+
+  .bookingtrip h2{
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .bookingtext p{
+    font-size: 16px;
+    width: 100%;
+    }
+
+    .greecetrip img{
+      width: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 900px){
+  nav{
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 425px){
+
+}
+@media screen and (max-width: 375px){
+
+}
+
+@media screen and (max-width: 200px){
+  
 }
